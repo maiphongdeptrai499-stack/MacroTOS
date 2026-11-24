@@ -1,0 +1,55 @@
+Last Updated: November 24, 2026
+
+This Privacy Policy explains how [Bot Name] ("the Bot", "we", "us", or "our") collects, uses, stores, and protects your information when you authorize or interact with the Bot.
+
+1. Information We Collect
+We only collect the minimum data necessary to operate the Bot's OAuth2 server-joining, tool access, and license-management features:
+
+Discord Account Information: Your Discord User ID, username, and avatar hash obtained via Discord OAuth2 (identify scope) or Slash Command interactions.
+
+OAuth2 Credentials: Your Discord OAuth2 access token and refresh token (specifically scoped for guilds.join and identify) to enable automated server invitations.
+
+License & Access Records: Assigned license keys, redemption timestamps, expiration dates, key status (active, paused, revoked), and associated Discord User IDs.
+
+Command & Audit Logs: Basic metadata of Slash Command executions (command name, executor User ID, target User ID, timestamp, and permission tier) used strictly for security auditing and administrative accountability.
+
+We do not read, store, or log your private direct messages, server chat histories, or Discord account password.
+
+2. How We Use Your Information
+Your data is used solely for the following purposes:
+
+Automated Server Invitations: Using stored OAuth2 tokens to automatically invite or restore your account into designated service servers so you can access our tools.
+
+License Key Management: Validating, activating, renewing, or revoking user Keys.
+
+Permission Enforcement: Verifying your role or User ID before executing restricted Slash Commands.
+
+Security & Anti-Abuse: Preventing unauthorized access, Key sharing, and spam.
+
+3. Data Storage & Security
+We implement industry-standard security measures to protect your data:
+
+OAuth2 access and refresh tokens are stored in a secured database with encryption and strict access controls.
+
+Administrative Slash Commands and database access are restricted exclusively to authorized managers via explicit permission verification.
+
+While we take reasonable technical measures to safeguard your data, no electronic storage system is 100% secure.
+
+4. Data Sharing & Third Parties
+We never sell, rent, or trade your personal data or OAuth2 tokens to third parties. Data is transmitted only to Discord's official API as required to perform authorized actions (such as joining a server or responding to Slash Commands) and to our secure database hosting provider.
+
+5. Data Retention & Your Rights
+Retention: We retain your OAuth2 tokens and license records for as long as your authorization remains active or your license key is valid. Expired or revoked tokens are automatically invalidated or purged periodically.
+
+Revoking Access: You can revoke the Bot's access to your Discord account at any time by going to Discord User Settings → Authorized Apps → [Bot Name] → Deauthorize.
+
+Data Deletion Requests: You have the right to request the complete deletion of your stored User ID, OAuth2 tokens, and associated records. To request deletion, contact us via [Support Server Link] or [Contact Email]. Verified deletion requests are processed within 7 business days.
+
+6. Children's Privacy
+The Bot is not intended for individuals under the minimum age required to use Discord (typically 13, or higher depending on local laws). We do not knowingly collect data from underage users.
+
+7. Updates to This Policy
+We may revise this Privacy Policy periodically to reflect changes in our features or legal obligations. The updated date at the top of this document indicates the latest revision.
+
+8. Contact Us
+If you have any questions about this Privacy Policy or wish to exercise your data rights, please reach out through [Support Server Link] or [Contact Email].

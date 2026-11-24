@@ -1,0 +1,52 @@
+Last Updated: November 24, 2026
+
+By authorizing, inviting, or interacting with [Bot Name] ("the Bot", "we", "us", or "our"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, you must not use the Bot or authorize it via Discord OAuth2.
+
+1. Eligibility & Discord Compliance
+You must comply with the Discord Terms of Service and Discord Community Guidelines at all times while using the Bot. You confirm that you meet the minimum age required by Discord in your jurisdiction.
+
+2. Description of Service
+[Bot Name] is a utility and access-management Discord bot designed to:
+
+Authenticate users via Discord OAuth2 to automatically add them to designated Discord servers where tools, utilities, and services are hosted.
+
+Manage user access, roles, and license keys through structured Discord Slash Commands with strict permission tiers.
+
+3. OAuth2 Authorization & Automatic Server Joining
+To provide seamless access to our tools and backup servers, the Bot requests Discord OAuth2 authorization, including the identify and guilds.join scopes. By completing the OAuth2 authorization flow, you explicitly grant us permission to:
+
+Verify your Discord identity and account status.
+
+Automatically add your Discord account to our official service servers or designated backup servers in the event of server migration, maintenance, or tool deployment.
+
+You may revoke this authorization at any time through your Discord User Settings (Authorized Apps). Revoking authorization may restrict or terminate your access to automated server invites and associated tools.
+
+4. License Keys & Access Control
+Access to certain tools, features, or servers may require a valid license key ("Key").
+
+Key Usage: Keys are bound to the redeeming user's Discord ID unless explicitly stated otherwise. Sharing, reselling, leaking, or attempting to brute-force or bypass Key validation is strictly prohibited.
+
+Role-Based Slash Commands: All management functions—including user administration, Key generation, Key revocation, and access auditing—are executed exclusively through Discord Slash Commands governed by strict, hierarchical role and user-ID permissions. Attempting to exploit or gain unauthorized access to administrative commands will result in an immediate permanent ban.
+
+Revocation: We reserve the right to pause, expire, or permanently revoke any Key without refund if a violation of these Terms is detected.
+
+5. Prohibited Conduct
+You agree not to:
+
+Abuse, spam, or attempt to disrupt the Bot's infrastructure, APIs, or Slash Commands.
+
+Reverse-engineer, scrape, or exploit any tool provided through the Bot or its associated servers.
+
+Use the Bot for any unlawful purpose or in violation of Discord's Developer Policy.
+
+6. Service Availability & Disclaimers
+The Bot and its associated tools are provided on an "AS IS" and "AS AVAILABLE" basis. We do not guarantee uninterrupted uptime, error-free operation, or permanent availability of any specific feature or server. We reserve the right to modify, suspend, or discontinue any part of the service at any time without prior notice.
+
+7. Limitation of Liability
+To the maximum extent permitted by law, the developers and operators of [Bot Name] shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use of, or inability to use, the Bot, including account actions taken by Discord or loss of access to third-party servers.
+
+8. Changes to These Terms
+We may update these Terms from time to time. Continued use of the Bot or maintaining active OAuth2 authorization after changes are published constitutes your acceptance of the revised Terms.
+
+9. Contact
+For questions, disputes, or support regarding these Terms, please contact us via [Support Server Link] or email [Contact Email].
